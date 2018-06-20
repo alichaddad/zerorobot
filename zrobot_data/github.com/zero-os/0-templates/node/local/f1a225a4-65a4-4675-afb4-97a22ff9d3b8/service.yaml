@@ -1,0 +1,5 @@
+guid: f1a225a4-65a4-4675-afb4-97a22ff9d3b8
+name: local
+public: false
+template: github.com/zero-os/0-templates/node/0.0.1
+version: 0.0.1
