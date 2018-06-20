@@ -1,0 +1,36 @@
+services:
+- github.com/zero-os/0-templates/zrobot/0.0.1__robot2:
+    templates: ["https://github.com/zero-os/0-templates.git"] 
+    dataRepo: "https://github.com/alichaddad/zerorobot"
+    configRepo: "https://github.com/alichaddad/config"
+    sshkey: |
+        -----BEGIN RSA PRIVATE KEY-----
+        MIIEpAIBAAKCAQEA0Lw23vWoahGsPe/ae96QPWvVMCfNhYlDfuFNvACKKi3tqkqI
+        v+zDJqDR+PPSXButiwVhrjoLB35tfTb0oeBRovSrdPGDyuVPLetvcFVCRyuha3Kg
+        wKQKa9wQzx/GREii7XYmjm2xt4i5Zxgf0gQw72jUAIDahOLDAFLe+Nyik8atTFjs
+        Egg8ALVOPhPdtpaB6KCz0X5B6SLnypvOCewn45T0bv0ht9SLrvrKArZYie2MyUlb
+        OnqiA7hILcZQFeD60wlErmVZyvPUbZgbqq+B9CTn519QCkCewaSQQJP6hwp2Znik
+        wuxtTzTUWBEEODACCrHwF9XpetNalAdPJpHvZQIDAQABAoIBAQCRmVfk+hI5uo4c
+        vfv2v255iYgxiPIRHYgZLutcIjw947+OM2NkDLCrdy4/q0OmwB+zg1N5hj8/QO76
+        kqTdbW1Eb8pRTk4R7xXl//3Bq5cJseNs4Y5EEai7R8vpzk4sP0Z2wR1v6BA454P7
+        55X6lrXTqZmHqFnEq7A9v5CMoso8rOxne02wy4a2jVjCn9MJJ6jk38E/X8rCD+wv
+        dKbBXwFsebl8QsrVY9n8yM+1JBxC+k8He8a4eQHyL3gYJKFd6YJnPxhC/HgxvDzk
+        hZf23MYSlX3sXdXV5pBaE175Ile/YBlENlfNFhrrpxwFvkXUD9xLXaijeNtOjhxS
+        HMR9k+lBAoGBAPAjbjQQ79eIzP3pbpOTLMj6HApg4lrds66/GNQGQRaoaCrTjEub
+        G2rI2u0UZnxa5q731YiMfp/tzXR7TLRIpbZ/faKG61ZCdjLF6VEY3Vgd9xyfGCeL
+        L41PqGfhfYXUf82k03iO9V6hgREbeLytFJjKw1Jipipkl1nypj88N015AoGBAN6F
+        xz3YNU12h49rucmiavn9a/+m1Xs478DiBZoTDBmq7xvk6WNG4FrJ3LofER7ineNf
+        4/IbCn+qUk2FwqLD3QQ8PawnyT9oWBi1HsFzQHe5u69Wxa8q355Q72UbSUyaTjhU
+        EN9Z7w95nygFd2jfd74VWYVL5cEg6UvWbYNlvjJNAoGANGem/xnLHYAvLCIrDW2K
+        0nkycVlfTHEhazss0ehjf+xUfzQXY9B/lTgr/pz7GJxFx10yblAqugANXCQkQxuv
+        fjooUrWa2gI7BS2HkzkX5Mj1Snu1q7uGLxJ5L+JXoEMVeO1FcQPRrEsWfYM/P/2N
+        hyKIqYv5szqshOadPSOI9hECgYEAsHUhlHdZfX4a7a6de7niXy+JbwfbjoWOCkSx
+        8IZeOBSG3HXgZauUyin9cVKlfvpx/hbSafDrmGV2Mqd5uxzarTsgJN7ABho2khE+
+        vGUqoEaXAOoshUXYYnEIBgNnUumiUaTIZHWqz3jArzn2gSGEkSXZAY04OrhgiJUX
+        7vTFqJkCgYBHikaHPebKSvTkIqbAU0Tr6ZbtNPtZAwqLK7spIN3WtHEFMn0J6ToM
+        ljMw8KlyxHZXnVm5IHiRoRjKVP0qNRWdNOPeLb2dBHgIaV2FhMf+yBZ9bFE5d+xT
+        6hIhi1bpSvQWU3yPdV/iKBXmDXmrfw5Rp4s3XEQLJGNjnUzV/a2U6A==
+        -----END RSA PRIVATE KEY-----
+actions:
+    - actions: ['install']
+      template: github.com/zero-os/0-templates/zrobot/0.0.1

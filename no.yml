@@ -1,0 +1,5 @@
+services:
+- github.com/zero-os/0-templates/node/0.0.1__549c0812e551:
+    hostname: "myzeros"
+actions:
+  - actions: ['install']

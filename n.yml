@@ -1,0 +1,16 @@
+services:
+- github.com/zero-os/0-templates/alerta/0.0.1__reporter:
+    url: "http://195.134.212.19:6060/api/"
+    apikey: "fWZH05INZpHj9s3iau5ekq9xQhNKa4lHB2rSJEsU"
+    envname: "nodeali"
+
+- github.com/zero-os/0-templates/node/0.0.1__549c0812e551:
+    redisAddr: 172.17.5.1
+    redisPort: 6379
+    hostname: "myzeros"
+    alerta: ['reporter']
+
+actions:
+  - template: github.com/zero-os/0-templates/node/0.0.1
+    name: 525400123456
+    actions: ['install']

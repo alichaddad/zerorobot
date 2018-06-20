@@ -1,0 +1,5 @@
+guid: 2889bc67-ec93-4c6c-bdd6-b4785d465859
+name: robot1
+public: false
+template: github.com/zero-os/0-templates/zrobot/0.0.1
+version: 0.0.1

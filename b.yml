@@ -1,0 +1,29 @@
+services:
+- github.com/zero-os/0-templates/backer/0.0.1__backer:
+    backupServer:
+       address: "453454"
+       port: 22
+       username: "adlksl"
+       password: "dfsf"
+    wpServers:
+       - address: "4"
+         port: 22
+         username: "adlksl"
+         password: "dfsf"
+       - address: "453454"
+         port: 22
+         username: "adlksl"
+         password: "dfsf"
+    mattermostServers:
+       - address: "453454"
+         port: 22
+         username: "adlksl"
+         password: "dfsf"
+       - address: "453454"
+         port: 22
+         username: "adlksl"
+         password: "dfsf"
+      
+actions:
+    - actions: ['install']
+      template: github.com/zero-os/0-templates/backer/0.0.1
