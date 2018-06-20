@@ -1,1 +1,6 @@
-[]
+-   action_name: _monitor
+    args: null
+    created: 1529523329
+    eco: null
+    guid: 53bc1c6f-3e12-4250-a66d-ac1983ebdf55
+    state: running
