@@ -1,12 +1,6 @@
 -   action_name: _monitor
     args: null
-    created: 1529834212
+    created: 1529834272
     eco: null
-    guid: 5907d058-2eb4-4e0e-b5f5-0d117b9be854
+    guid: edf2786f-f583-4f6f-a362-1d1c1fc4c5ad
     state: running
--   action_name: save
-    args: null
-    created: 1529834212
-    eco: null
-    guid: a92cc426-ab52-402d-ba78-2af841b5b8b0
-    state: new
