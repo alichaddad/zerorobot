@@ -1,8 +1,0 @@
-hostname: ''
-network:
-    bonded: false
-    cidr: ''
-    driver: ''
-    vlan: 0
-uptime: 0.0
-version: ''
