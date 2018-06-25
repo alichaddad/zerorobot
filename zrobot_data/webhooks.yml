@@ -1,6 +1,3 @@
--   id: 2e5f0f37e0a1d5bf8263797dc5c04bf6
+-   id: d837eeed55f4678e6f9f7f90276753b4
     kind: eco
-    url: http://requestbin.fullcontact.com/1hoooq91
--   id: 2434babe1aa7d6b3e4efcbf785a3f2ee
-    kind: eco
-    url: http://172.17.0.2:8200/restmachine/zrobot/client/taskCallback?authkey=005fa89e-a76a-4131-9ad8-5cdebc4e6f78
+    url: http://172.17.0.2:8200/restmachine/zrobot/client/taskCallback?authkey=e4fb607e-9454-4e7b-9d14-8194c83affd2
