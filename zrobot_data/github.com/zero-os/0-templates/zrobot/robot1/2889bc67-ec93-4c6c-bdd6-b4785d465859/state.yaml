@@ -1,4 +1,5 @@
 actions:
     install: ok
     start: ok
-status: {}
+status:
+    running: ok
