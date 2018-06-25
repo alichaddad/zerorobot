@@ -1,1 +1,3 @@
-{}
+-   id: 4acf4935762989720463e8982306b89a
+    kind: eco
+    url: http://172.17.0.2:8200/restmachine/zrobot/client/taskCallback?authkey=a6ce2e0e-ad81-412a-acf9-fb1acf1e1684
