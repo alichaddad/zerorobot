@@ -1,5 +1,5 @@
 services:
-- github.com/zero-os/0-templates/zrobot/0.0.1__robot3:
+- github.com/zero-os/0-templates/zrobot/0.0.1__robot4:
     templates: ["https://github.com/zero-os/0-templates.git"] 
 
 actions:
