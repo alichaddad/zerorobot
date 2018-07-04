@@ -1,7 +1,0 @@
-configRepo: ''
-dataRepo: ''
-nics: []
-organization: ''
-sshkey: ''
-templates:
-- https://github.com/zero-os/0-templates.git
